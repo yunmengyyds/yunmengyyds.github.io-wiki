@@ -1,0 +1,70 @@
+/* 观看此视频之前可以看一下上个视频简介 接上个视频发的哈 */
+* {
+	/* 初始化 清除元素的内外边距 */
+	padding: 0;
+	margin: 0;
+	/* 盒子模型 */
+	box-sizing: border-box;
+}
+body {
+	/* 宽度占浏览器可视区域的宽度 */
+	width: 100vm;
+	background-color: #f2f2f2;
+}
+.tou {
+  position: relative;
+  width:685px;
+  height:5vh;
+  background-color: write;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  display:flex;
+  
+  }
+ .name {
+   margin-left: 15px;
+   margin-top: 15px;
+   }
+ .guanwang {
+   margin-left:400px;
+   margin-top:15px;
+   }
+ .qq {
+ margin-left: 50px;
+ margin-top: 15px;
+ }
+.tou a {
+  text-decoration: none;
+  color: blue;
+  }
+.cd {
+    position: relative;
+	width: 150px;
+	height: 985px;
+	background-color: write;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    line-height: 50px;
+  }
+.cd ul li{
+	padding: 10px;
+}
+.cd ul li a {
+	color: black;
+	/* 取消a标签的下划线 */
+	text-decoration: none;
+	/* 现在盒子内直接定义好左边框 不过颜色为透明色也就看不见 */
+	border-left: 15px solid transparent;
+}
+.cd ul li a i {
+	font-size: 18px;
+	margin: 0 15px;
+}
+.cd ul li a:hover {
+	color: pink;
+	/* 这样文字和图标会被带跑不太好看 解决办法很简单 */
+	/* 然后鼠标放上去变颜色就可以了 */
+	border-left-color: #fb7299;
+}
+.neirong{
+  margin:0px;
+  
+}
